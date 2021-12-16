@@ -1,0 +1,104 @@
+*{
+    margin: auto;
+    padding: auto;
+   
+   
+}
+.fuilt-container
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #fccb90, #d57eeb );
+}
+h1, h5 {
+    text-align: center;
+}
+h5{
+    padding-top: 30px;
+   
+}
+a{
+    padding-left: 10px;
+    background: #e5e5e5;
+    box-shadow: inset -10px -10px  10px white, inset 10px 10px  10px gray;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateX(75deg);
+    
+}
+.time{
+    text-align: center;
+    margin: 30px;
+}
+input{
+    border-radius: 2px;
+    line-height: none;
+    
+}
+.infor{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 24%;
+    left: 33%;
+    display: flex;
+   
+}
+.infor img{
+
+    height: 80px;
+    margin: 50px 10px 30px 30px;
+    border-radius: 20%;
+}
+#box{
+    position: absolute;
+    background: #e5e5e5;
+    width: 64%;
+    height: 20%;
+    box-shadow: inset -10px -10px  10px white,
+    inset 10px 10px  10px gray;
+   
+    top: 51%;
+    left: 18%;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateX(75deg);
+    transform-origin: bottom;
+}
+#box:hover{
+    transform-style: preserve-3d;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+    transition: 5s;
+}
+#display
+{
+    position: absolute;
+    width: 64%;
+    height: 20%;
+    background: #e5e5e5;
+    bottom: 9%;
+    left: 18% ;
+    box-shadow: inset 10px 10px  15px gray,inset -10px -10px  15px white;
+   
+}
+.container:active{
+    background: linear-gradient(90deg, #fccb90, #d57eeb );
+}
+.container:active #box{
+    background: linear-gradient(90deg, #d57eeb, #fccb90);
+    box-shadow: none;
+    border-radius: 30px 30px 0px 0px;
+}
+.container:active #display{
+    background: linear-gradient(90deg, #d57eeb, #fccb90);
+    box-shadow: none;
+    border-radius: 0px 0px 30px 30px;
+}
+.result{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 48%;
+
+}
+
+
+
